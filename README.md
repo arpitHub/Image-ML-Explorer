@@ -54,6 +54,7 @@ Students can explore datasets, preprocess images, build models, and visualize re
 
 ## 📂 Project Structure
 
+```text
 ├── app.py                     # Main entry point and landing page
 ├── pages/
 │   ├── 1_Dataset_Explorer.py  # Load and preview image datasets
@@ -66,6 +67,7 @@ Students can explore datasets, preprocess images, build models, and visualize re
 ├── requirements.txt           # Dependencies with pinned versions
 ├── runtime.txt                # Python version specification
 └── README.md                  # Project guide and documentation
+```
 
 ---
 

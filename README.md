@@ -54,7 +54,18 @@ Students can explore datasets, preprocess images, build models, and visualize re
 
 ## 📂 Project Structure
 
-├── app.py # Main entry point and landing page ├── pages/ │ ├── 1_Dataset_Explorer.py # Load and preview image datasets │ ├── 2_Preprocessing.py # Normalize and reshape images │ ├── 3_Model_Builder.py # Train Logistic Regression and kNN models │ ├── 4_Results.py # Test predictions and explore misclassifications │ ├── 5_CNN_Model.py # Build and train a Convolutional Neural Network │ └── 6_CNN_Results.py # Evaluate CNN predictions and confidence scores ├── requirements.txt # Dependencies with pinned versions ├── runtime.txt # Python version specification └── README.md # Project guide and documentation
+├── app.py                     # Main entry point and landing page
+├── pages/
+│   ├── 1_Dataset_Explorer.py  # Load and preview image datasets
+│   ├── 2_Preprocessing.py     # Normalize and reshape images
+│   ├── 3_Model_Builder.py     # Train Logistic Regression and kNN models
+│   ├── 4_Results.py           # Test predictions and explore misclassifications
+│   ├── 5_CNN_Model.py         # Build and train a Convolutional Neural Network
+│   ├── 6_CNN_Results.py       # Evaluate CNN predictions and confidence scores
+│   └── 7_HandDrawn.py         # Interactive canvas for drawing digits and testing models
+├── requirements.txt           # Dependencies with pinned versions
+├── runtime.txt                # Python version specification
+└── README.md                  # Project guide and documentation
 
 ---
 
@@ -77,7 +88,7 @@ $ streamlit run app.py
 ```
 ---
 
-🌐 Deployment
+## 🌐 Deployment
 Push your repo to GitHub.
 
 Go to Streamlit Cloud.
@@ -90,7 +101,7 @@ Example URL: https://image-explorer.streamlit.app
 
 ---
 
-🎓 Learning Outcomes
+## 🎓 Learning Outcomes
 By using this app, students will:
 
 Understand how images are represented as pixel arrays.
@@ -105,14 +116,14 @@ Appreciate the strengths and limitations of different approaches to image classi
 
 ---
 
-📸 Screenshots (optional)
+## 📸 Screenshots (optional)
 Add screenshots of each page once deployed.
 
 ---
 
 ## ✅ Notes
 - `app.py` introduces the app and guides navigation.  
-- Each file in `pages/` corresponds to a learning module.  
+-  Each file in `pages/` corresponds to a learning module.  
 - `requirements.txt` + `runtime.txt` ensure reproducible deployment.  
 - `README.md` provides instructions, features, and learning outcomes.  
 

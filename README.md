@@ -34,13 +34,13 @@ Students can explore datasets, preprocess images, build models, and visualize re
 - **CNN Results (📊)**  
   - Test CNN predictions with probability scores.  
   - Explore misclassified examples to highlight CNN strengths and weaknesses.
+ 
 
-- **Hand‑Drawn Image Tester (✍️)**
- - Draw your own digit directly in the app using an interactive canvas.
- - See how both classic ML models and CNNs interpret your sketch.
- - Learn why hand‑drawn inputs differ from curated datasets (noise, resolution mismatch, thicker strokes).
- - Reinforces the importance of preprocessing and robust models in real‑world scenarios.
-
+- **Hand‑Drawn Image Tester (✍️)**  
+  - Draw your own digit directly in the app using an interactive canvas.
+  - See how both classic ML models and CNNs interpret your sketch.
+  - Learn why hand‑drawn inputs differ from curated datasets (noise, resolution mismatch, thicker strokes).
+  - Reinforces the importance of preprocessing and robust models in real‑world scenarios.
 ---
 
 ## 🛠️ Tech Stack

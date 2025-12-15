@@ -1,1 +1,9 @@
-streamlit
+streamlit==1.39.0
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+seaborn==0.13.2
+scikit-learn==1.5.2
+tensorflow==2.17.0
+streamlit-drawable-canvas==0.9.3
+Pillow==10.4.0

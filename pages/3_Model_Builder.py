@@ -14,6 +14,12 @@ else:
     X = st.session_state["X_processed"]
     y = st.session_state["y_labels"]
 
+    # Classic ML models (Logistic Regression, kNN) require 2D input (n_samples, n_features).
+    # The Preprocessing page may have kept images as 2D arrays (n_samples, 8, 8) for
+    # visualization, so flatten here regardless of what was chosen there.
+    if X.ndim > 2:
+        X = X.reshape(len(X), -1)
+
     st.write("### How Models Classify Images")
     st.markdown("""
     Once images are converted into numbers, we can train machine learning models:

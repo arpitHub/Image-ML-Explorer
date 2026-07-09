@@ -55,7 +55,7 @@ Students can explore datasets, preprocess images, build models, and visualize re
 ## 📂 Project Structure
 
 ```text
-├── app.py                     # Main entry point and landing page
+├── streamlit_app.py            # Main entry point and landing page
 ├── pages/
 │   ├── 1_Dataset_Explorer.py  # Load and preview image datasets
 │   ├── 2_Preprocessing.py     # Normalize and reshape images
@@ -86,7 +86,7 @@ $ pip install -r requirements.txt
 
 3. Launch the app:
 ```bash
-$ streamlit run app.py
+$ streamlit run streamlit_app.py
 ```
 ---
 
@@ -95,7 +95,7 @@ Push your repo to GitHub.
 
 Go to Streamlit Cloud.
 
-Connect your repo and select app.py as the entry point.
+Connect your repo and select streamlit_app.py as the entry point.
 
 Deploy and share the link with students!
 
@@ -124,7 +124,7 @@ Add screenshots of each page once deployed.
 ---
 
 ## ✅ Notes
-- `app.py` introduces the app and guides navigation.  
+- `streamlit_app.py` introduces the app and guides navigation.  
 -  Each file in `pages/` corresponds to a learning module.  
 - `requirements.txt` + `runtime.txt` ensure reproducible deployment.  
 - `README.md` provides instructions, features, and learning outcomes.  
